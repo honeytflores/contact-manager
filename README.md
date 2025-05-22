@@ -1,14 +1,10 @@
-# PHP Contact Manager
+## Database Setup
 
-A simple contact manager built with PHP and MySQL.
+To set up the MySQL database:
 
-## Features
-- Add, edit, delete contacts
-- Search contacts by name, email, or phone
-- Pagination
+1. Open your MySQL client (e.g. phpMyAdmin, MySQL CLI)
+2. Run the SQL script in `database.sql` or paste the following:
 
-## Setup
-1. Import `contacts` table using provided SQL:
 ```sql
 CREATE DATABASE contact_manager;
 USE contact_manager;
